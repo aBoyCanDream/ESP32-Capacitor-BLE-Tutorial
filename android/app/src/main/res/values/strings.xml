@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">RGB Controller</string>
+    <string name="title_activity_main">RGB Controller</string>
+    <string name="package_name">com.aboycandream.myapp</string>
+    <string name="custom_url_scheme">com.aboycandream.myapp</string>
+</resources>

@@ -1,0 +1,12 @@
+{
+  "appId": "com.aboycandream.myapp",
+  "appName": "RGB Controller",
+  "bundledWebRuntime": false,
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "scheme": "RGB Controller"
+}

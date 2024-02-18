@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Awesome Capacitor App</title>
+    <meta
+      name="viewport"
+      content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/@ionic/pwa-elements@latest/dist/ionicpwaelements/ionicpwaelements.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/@ionic/pwa-elements@latest/dist/ionicpwaelements/ionicpwaelements.js"
+    ></script>
+
+    <link rel="icon" type="image/x-icon" href="./assets/icon/favicon.ico" />
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <meta name="theme-color" content="#31d53d" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="title">
+        My example App        
+      </div>
+
+      <!-- <capacitor-welcome></capacitor-welcome> -->
+      <button id="button1" class="buttons">Connect</button>  
+      <div id="char1-display">
+        Char1:
+      </div>  
+      <div id="char1"></div>  
+      <button id="button2" class="buttons">Start Listen</button>   
+      <input type="range" min="1" max="100" value="50" class="slider" id="slider1">
+      <div id="slider1-reading"></div>
+      <button id="button3" class="buttons">RGB On/Off</button>   
+      <div id="picker"></div>
+      <div id="rgb-values">
+        <div class="flex-row">R:
+          <div id="r-value"></div>
+        </div>
+        <div class="flex-row">G:
+          <div id="g-value"></div>
+        </div>
+        <div class="flex-row">B:
+          <div id="b-value"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/iro.js" type="module"></script>
+    <script src="./js/main.js" type="module"></script>
+  </body>
+</html>
